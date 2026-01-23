@@ -48,6 +48,7 @@
     /* Center content */
     #1 div {
         text-align: center;
+        justify-content: center;
     }
 
     /* Headings */
@@ -91,5 +92,25 @@
         background-color: #c4ff12;
         /* light gray background */
         color: #ff0000;
+    }
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+
+    #1 h1 {
+        font-size: 22px;
+    }
+
+    #1 h3 {
+        font-size: 14px;
+    }
+
+    #1 a {
+        font-size: 15px;
+        width: 90%;
+        /* link full-width jaisa lage */
+        text-align: left;
+        /* reading easy bane */
     }
 }
